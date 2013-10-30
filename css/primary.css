@@ -1,0 +1,210 @@
+h1, h2, h3 {
+  color: white;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  color: white;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 200;
+  padding-top: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: beige;
+}
+
+#bg-wrap {
+  overflow:hidden;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display:none;
+  }
+
+#main,
+#footer {
+  z-index:100;
+}
+
+#main {
+  position:relative;
+}
+
+.bgwidth {
+  width: 100%!important;
+  height: auto!important;
+   }
+
+.bgheight {
+  height: 100%!important;
+  width: 100%!important;
+   }
+
+#title {
+	width:100%;
+	background:url(../img/bbtitle2.png);
+	background-position:25px;
+	height:100px;
+	background-repeat:no-repeat;
+	background-size:40%;
+}
+
+
+#logo {
+  background:url(../img/logo.png);
+  background-repeat:no-repeat;
+  text-indent: -9999px;
+  height: 150px;
+}
+
+section h2 {
+  margin-top: 185px;
+  font-size: 3em;
+}
+
+* { margin: 0; padding: 0; }
+
+html {
+	background: url(../img/bg5.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: helvetica;
+	background-color:black;
+}
+
+body {
+  margin: 30px 60px;
+}
+
+#footer {
+	height: auto;
+	background-color: transparent;
+	width:100%;
+	position:fixed;
+	bottom: 80px;
+}
+
+span {
+	color: white;
+	font-size:0.8em;
+	line-height:5em;
+	padding-left:20px;
+	display:block;
+	float:left;
+}
+
+#footertext {
+	height:100%;
+	width:330px;
+	display:block;
+	float:left;
+   line-height:4em;
+   padding-right:25px
+	}
+
+  #mc-embedded-subscribe-form {
+  	float:left;
+  	padding-top:19px;
+  }
+
+  /* ie8 and below hack */
+  html #mc-embedded-subscribe-form {
+    padding-top:0px\9;
+    margin-top:-3px\9;
+  }
+
+#footertext input {
+	margin-left: 1em;
+	color: #7B797A;
+	font-size: 0.8em;
+	height:2em;
+	line-height:2em;
+	padding-left:5px;
+  padding-top:1px;
+}
+
+#arrows {
+background-image: url(../img/arrows.png);
+background-repeat: no-repeat;
+height: 15px;
+width:30px;
+display:inline-block;
+line-height:4em;
+background-position:center center;
+float:left;
+padding-top:48px;
+cursor:pointer;
+}
+
+#facebook {
+ background-image: url(../img/facebook.png);
+background-repeat: no-repeat;
+height: 26px;
+width:27px;
+display:inline-block;
+line-height:4em;
+padding-right:5px;
+}
+
+
+#twitter {
+ background-image: url(../img/twitter.png);
+background-repeat: no-repeat;
+height: 26px;
+width:27px;
+display:inline-block;
+line-height:4em;
+padding-right:5px;
+
+}
+
+#youtube {
+ background-image: url(../img/youtube.png);
+background-repeat: no-repeat;
+height: 26px;
+width:27px;
+display:inline-block;
+line-height:4em;
+}
+
+#mc-embedded-subscribe {
+	display:none;
+}
+
+#bookings-address {
+  float: left;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+#bookings {
+  margin-bottom: 20px;
+}
+
+#hours {
+  float: left;
+}
